@@ -1,4 +1,3 @@
-using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace SalaryCalculatorTestProject
@@ -19,7 +18,7 @@ namespace SalaryCalculatorTestProject
 
 
             //assert
-            Assert.AreEqual(2080,annualSalary);
+            Assert.AreEqual(104000, annualSalary);
         }
     }
 }

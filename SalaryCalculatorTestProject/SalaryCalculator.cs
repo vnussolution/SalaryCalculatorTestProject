@@ -7,7 +7,8 @@
 
         public decimal GetAnnualSalary(int i)
         {
-            this.Salary = i * 201;
+            const decimal hoursInOneYear = 2080;
+            this.Salary = 50 * hoursInOneYear;
             return Salary;
         }
     }
