@@ -7,7 +7,7 @@
 
         public decimal GetAnnualSalary(int i)
         {
-            this.Salary = i * 200;
+            this.Salary = i * 201;
             return Salary;
         }
     }
